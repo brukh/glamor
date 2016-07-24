@@ -47,6 +47,7 @@
     "mocha": "^2.5.3",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
+    "rollupify": "^0.3.4",
     "watchify": "^3.7.0"
   },
   "author": "Sunil Pai <threepointone@gmail.com>",
@@ -65,10 +66,11 @@
     ],
     "env": {
       "development": {
-        "plugins": ["react-hot-loader/babel"]
+        "plugins": [
+          "react-hot-loader/babel"
+        ]
       }
     }
-
   },
   "eslintConfig": {
     "extends": [
