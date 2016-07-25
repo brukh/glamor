@@ -6,6 +6,8 @@ import { AppContainer } from 'react-hot-loader';
 
 import { App } from './app'
 
+console.log(App)
+
 let make = App =>
   <AppContainer><App/></AppContainer>
 

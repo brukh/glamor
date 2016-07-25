@@ -316,7 +316,7 @@ function simple(str) {
     .replace(/[^a-zA-Z0-9\-_\$]/g, '')
 }
 
-let classes = [ 'active', 'any', 'checked', 'default', 'disabled', 'empty',
+let classes = [ 'active', 'any', 'checked', '_default', 'disabled', 'empty',
 'enabled', 'first', 'first-child', 'first-of-type', 'fullscreen', 'focus',
 'hover', 'indeterminate', 'in-range', 'invalid', 'last-child', 'last-of-type',
 'left', 'link', 'only-child', 'only-of-type', 'optional', 'out-of-range',
@@ -443,3 +443,6 @@ export function animation(name, keyframes) {
   return name + '_' + id
 
 }
+
+
+export default module.exports

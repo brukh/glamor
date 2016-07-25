@@ -1,6 +1,7 @@
 import React from 'react'
+import RCSS, { merge, media, animation, fontFace, simulate, stopSimulation } from '../../src/index.js'
 
-import { merge, media, animation, visited, select, hover, style, simulate, fontFace, stopSimulation } from '../../src'
+let { visited, select, hover, style } = RCSS
 
 import { latin, greek, cyrillic } from './OpenSans'
 
